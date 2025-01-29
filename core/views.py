@@ -6,8 +6,8 @@ import pytz
 class InfoAPIView(APIView):
     def get(self, request):
         data = {
-            "email": "your_registered_email@example.com",  # Replace this
+            "email": "daniel.olusesi20@gmail.com",
             "datetime": datetime.now(pytz.UTC).isoformat(),
-            "github_url": "https://github.com/yourusername/stage0-api"
+            "github_url": "https://github.com/Dannysesi/Stage0_API"
         }
         return Response(data)
