@@ -19,9 +19,9 @@ GET /api/info/
 
 Response example:
 {
-  "email": "daniel.olusesi20@gmail.com",
-  "datetime": "2025-01-29T19:12:28.886844+00:00",
-  "github_url": "https://github.com/Dannysesi/Stage0_API"
+  "email": "your_registered_email@example.com",
+  "datetime": datetime.now(pytz.UTC).isoformat(),
+  "github_url": "https://github.com/yourusername/repository"
 }
 ```
 
